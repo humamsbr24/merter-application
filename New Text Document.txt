@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+// دالة لحساب مجموع عنصرين
+int sum(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    cout << "مرحبًا بك في العالم!" << endl;
+
+    // قراءة الإدخال من المستخدم
+    cout << "الرجاء إدخال رقمين: ";
+    int num1, num2;
+    cin >> num1 >> num2;
+
+    // استدعاء الدالة وطباعة النتيجة
+    int result = sum(num1, num2);
+    cout << "المجموع هو: " << result << endl;
+
+    return 0;
+}
